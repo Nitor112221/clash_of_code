@@ -9,12 +9,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 dotenv.load_dotenv()
 
 
-def get_env_bool(key: str, default: str = 'True') -> bool:
-    return os.getenv(key, default) in (
+def get_env_bool(key: str, default: str = 'true') -> bool:
+    return os.getenv(key, default).lower() in (
         'true',
-        'True',
         'yes',
-        'YES',
         '1',
         'y',
     )
@@ -40,6 +38,8 @@ INSTALLED_APPS = [
     'tinymce',
     # Project applications
     'contests.apps.ContestsConfig',
+    'core.apps.CoreConfig',
+    'homepage.apps.HomepageConfig',
     'problems.apps.ProblemsConfig',
     'submissions.apps.SubmissionsConfig',
     'users.apps.UsersConfig',

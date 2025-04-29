@@ -177,11 +177,6 @@ class Problem(django.db.models.Model):
         auto_now_add=True,
     )
 
-    def clean(self):
-        # TODO когда будет тест система нужно проверить
-        # авторское решение перед сейвом и добавлением теста
-        return super().clean()
-
     def __str__(self):
         return self.title[:20]
 

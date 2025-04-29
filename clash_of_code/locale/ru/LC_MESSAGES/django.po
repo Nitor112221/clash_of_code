@@ -38,7 +38,7 @@ msgstr "Не хватает прав"
 
 #: contests/views.py:137
 msgid "You are already registered for this contest"
-msgstr "Вы уже зарегистрированны на это соревнование"
+msgstr "Вы уже зарегистрированы на это соревнование"
 
 #: contests/views.py:270
 msgid "Please log in to access this page"
@@ -452,7 +452,7 @@ msgstr "Вы зарегистрированы"
 
 #: templates/contests/detail.html:44 templates/users/signup.html:38
 msgid "Register"
-msgstr "Зарегистрирован"
+msgstr "Зарегистрироваться"
 
 #: templates/contests/detail.html:49 templates/contests/standings.html:5
 #: templates/contests/standings.html:10

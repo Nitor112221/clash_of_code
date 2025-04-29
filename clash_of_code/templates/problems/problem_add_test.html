@@ -58,10 +58,9 @@
                             </div>
 
                             <div class="col-md-1 d-flex flex-column">
-                                <button type="button" class="btn btn-outline-danger mb-2 delete-test"
-                                        data-url="{% url 'problems:delete_test' pk=test.pk %}">
+                                <a href="{% url 'problems:delete_test' pk=test.pk %}" class="btn btn-outline-danger mb-2 delete-test">
                                     <i class="bi bi-trash"></i>
-                                </button>
+                                </a>
                                 <button type="button" class="btn btn-outline-primary mb-2 move-up-button">
                                     <i class="bi bi-arrow-up"></i>
                                 </button>
