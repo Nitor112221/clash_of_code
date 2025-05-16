@@ -1,5 +1,3 @@
-![Статус последнего коммита](https://gitlab.crja72.ru/django/2025/spring/course/projects/team-1/badges/main/pipeline.svg)
-
 # Это учебный проект специализации Django
 ### Дисклеймер: все команды написаны для операционной системы linux, при их вызове проверьте, что на вашей OS они будут работать также, в ином случае поменяйте их в соответствие с синтаксисом терминала вашей OS  
 ## Необходимое ПО:
@@ -13,7 +11,7 @@ apt install gettext
 ## Установка проекта:
 Для установки проекта вы можете прописать следующую команду в терминал:
 ```bash
-git clone https://gitlab.crja72.ru/django/2025/spring/course/projects/team-1.git
+git clone https://github.com/Nitor112221/clash_of_code 
 ```
 После нужно перейти в директорию проекта:
 ```bash
